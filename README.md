@@ -10,7 +10,7 @@ Terraform scripts will deploy:
 * Rancher server (using Stable version of Rancher)
 
 <p align="center">
-  <img src="https://github.com/KellyGriffin/Rancher_GCE_Terraform/blob/master/images/RancherGCE.png" width="350" title="Rancher GCE Architecture">
+  <img src="https://github.com/KellyGriffin/Rancher_GCE_Terraform/blob/master/images/RancherGCE.jpg" width="350" title="Rancher GCE Architecture">
 </p>
 
 This deployment will expose your Rancher server to the internet.  Modify the Terraform environment if you don't want this to occur.  It also provides a Dynamic Public IP Address - caution should be expressed when using a dynamic address for your Rancher server.  It is recommended a static address be used and/or a DNS entry for the Rancher URL.
